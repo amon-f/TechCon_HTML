@@ -1,0 +1,40 @@
+body {
+      padding-top: 70px;
+      overflow: hidden;
+    }
+
+    main {
+      height: calc(100vh - 70px - 60px);
+      overflow-y: auto;
+    }
+
+    footer {
+      height: 60px;
+    }
+
+    .hero-content {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .hashtags {
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+
+    .navbar-custom {
+    background-color: #009900;
+  }
+  .navbar-custom .nav-link,
+  .navbar-custom .navbar-brand {
+    color: #fff;
+  }
+  .navbar-custom .nav-link:hover,
+  .navbar-custom .navbar-brand:hover {
+    color: #d4fcd4;
+  }
+
+  .footer-custom {
+    background-color: #009900;
+    color: #fff;
+  }
