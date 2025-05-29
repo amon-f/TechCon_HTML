@@ -23,7 +23,7 @@ body {
     }
 
     .navbar-custom {
-    background-color: #009900;
+    background-color: #228b22;
   }
   .navbar-custom .nav-link,
   .navbar-custom .navbar-brand {
@@ -35,6 +35,6 @@ body {
   }
 
   .footer-custom {
-    background-color: #009900;
+    background-color: #228b22;
     color: #fff;
   }
