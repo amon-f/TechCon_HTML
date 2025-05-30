@@ -249,3 +249,125 @@ button[type="submit"]:hover {
     text-align: center;
     padding: 0.5rem;
 }
+
+/* ======= Schedule Page Specific Styles ======= */
+
+/* Highlight active nav link */
+.nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #6c757d;
+}
+
+.breadcrumb a {
+    color: #009900;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* Tag badge style */
+.tag {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.75rem;
+    background-color: #007a00;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+/* ======= Register Page Specific Styles ======= */
+
+/* Highlight active nav link */
+.nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+/* Form Section */
+.form-section {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.registration-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #009900;
+    box-shadow: 0 0 0 0.2rem rgba(0, 153, 0, 0.25);
+}
+
+button[type="submit"] {
+    background-color: #009900;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #007a00;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    .form-section {
+        padding: 1rem;
+    }
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li {
+    display: inline;
+}
